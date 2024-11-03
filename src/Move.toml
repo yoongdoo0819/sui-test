@@ -1,7 +1,7 @@
 [package]
 name = "Examples"
 edition = "2024.beta" 
-published-at = "0xd2ce643ddcfbd05402a332a53e4aa328477880998dd6f2c30dec1c77b49c33ca"
+published-at = "0x709bb4d5d5b4fc43a3019f61197a8b60e79bc34f3b2aea51440becec289c0dc8"
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
@@ -20,7 +20,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-examples = "0xd2ce643ddcfbd05402a332a53e4aa328477880998dd6f2c30dec1c77b49c33ca"
+examples = "0x709bb4d5d5b4fc43a3019f61197a8b60e79bc34f3b2aea51440becec289c0dc8"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
