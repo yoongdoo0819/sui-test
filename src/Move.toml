@@ -1,7 +1,7 @@
 [package]
-name = "Examples"
+name = "sml"
 edition = "2024.beta" 
-published-at = "0x709bb4d5d5b4fc43a3019f61197a8b60e79bc34f3b2aea51440becec289c0dc8"
+published-at = "0x993a052b2549f48129006c739e9abcc10d4a6585b036af5e37b1e9719b7b8ebe"
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
@@ -9,7 +9,7 @@ published-at = "0x709bb4d5d5b4fc43a3019f61197a8b60e79bc34f3b2aea51440becec289c0d
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 
 # For remote import, use the `{ git = "...", subdir = "...", rev = "..." }`.
-# Revision can be a branch, a tag, and a commit hash.
+# Revision can be a br  anch, a tag, and a commit hash.
 # MyRemotePackage = { git = "https://some.remote/host.git", subdir = "remote/path", rev = "main" }
 
 # For local dependencies use `local = path`. Path is relative to the package root
@@ -20,7 +20,7 @@ Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-fram
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
-examples = "0xA11CE"
+sml = "0x993a052b2549f48129006c739e9abcc10d4a6585b036af5e37b1e9719b7b8ebe"
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
