@@ -1,7 +1,7 @@
 [package]
 name = "Examples"
 edition = "2024.beta" 
-published-at = "0x0"
+published-at = "0xb29042215d578256e08c4ad0874fddfff6e5abef4b665856b5bad5b4ac9693bd"
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
 
