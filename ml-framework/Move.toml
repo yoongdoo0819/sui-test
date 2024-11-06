@@ -1,10 +1,10 @@
 [package]
 name = "Sml"
 edition = "2024.beta"
-published-at = "0x30ff05a6b9434e3df359917362052de5bf975390a7738de5823136de82e99b85"
+published-at = "0x8d77eaf0b5503337f113fae8878e5a15ce1af0b13ea3e38327d2e280d4fa9679"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 
 [addresses]
-sml = "0x30ff05a6b9434e3df359917362052de5bf975390a7738de5823136de82e99b85"
+sml = "0x8d77eaf0b5503337f113fae8878e5a15ce1af0b13ea3e38327d2e280d4fa9679"

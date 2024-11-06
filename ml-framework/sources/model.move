@@ -102,7 +102,7 @@ public fun add(a: u64, b: u64, ctx: &mut TxContext): u64 {
     return a + b
 }
 
-entry fun add2(in1: u64, in2: u64, ctx: &mut TxContext): u8 {
+public entry fun add2(in1: u64, in2: u64, ctx: &mut TxContext): u8 {
     // add(a, b, ctx)
     
     let o1 = (in1 * w1() + in2 * w3() + b1());
